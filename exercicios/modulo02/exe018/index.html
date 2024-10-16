@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+        @font-face{
+            font-family:'font local';
+        src: url('littlebird.ttf');
+        }
+            
+
+        body{
+            font-size: 18px;
+        }
+
+        h2#padrao{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2#google{
+          font-family: Kalnia Glaze;
+        }
+
+        h2#local{
+           font-family:font local ;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Fontes em css</h1>
+    <h2 id="padrao">Podemos usar a fonte padrão do sistema</h2>
+    <h2 id="google">A fonte importada do google</h2>
+    <h2 id="local">Ou a fonte local do sistema</h2>
+</body>
+</html>

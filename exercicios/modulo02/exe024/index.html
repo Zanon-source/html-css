@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: chartreuse;
+        }
+
+        a::after{
+            content: '😖';
+        }
+        a::before{
+            content: '😖';
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=nO8C0jpsW7Y&list=RDMM&index=3" target="_blank">Musica no youtube</a></li>
+        <li><a href="https://github.com/Zanon209/html-css" target="_blank">Github</a></li>
+    </ul>
+</body>
+</html>
