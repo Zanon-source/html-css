@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form{
+            border: 3px solid black;
+            padding: 20px;
+        }
+
+        input{
+            margin: 8px;
+        }
+        input#isubmit{
+            margin-top: 20px;
+            padding: 5px 15px;
+            
+        }
+    </style>
+</head>
+<body>
+
+   <form action="#">
+
+    <label for="inome"></label>
+        Nome: <input type="nome" id="inome">
+    </label>
+
+    <br>
+
+    <label for="isobrenome">
+        Sobrenome: <input type="sobrenome" id="isobrenome">
+    </label>
+
+    <br>
+
+    <label for="iemail">
+        Email: <input type="email" id="iemail">
+    </label>
+
+    <br>
+
+    <label for="isenha">
+        Senha: <input type="password" id="isenha">
+    </label>
+
+    <br>
+
+    <input type="submit" value="Enviar" id="isubmit">
+   </form>
+</body>
+</html>
